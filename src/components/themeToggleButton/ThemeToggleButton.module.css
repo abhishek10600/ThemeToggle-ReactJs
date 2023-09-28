@@ -1,0 +1,22 @@
+.containerLight{
+    color: white;
+}
+.containerDark{
+    color: black;
+}
+.containerLight > button{
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color:white
+}
+.containerDark > button{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
